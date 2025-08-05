@@ -2,7 +2,7 @@
 
 Kalshi has a prediction market on the average number of check-ins at TSA checkpoints in the US each week. This means that if we can forecast the total number of people getting on a plane in a given week, we can determine whether the contracts are priced efficiently or not.
 
-The full article explaining this process is available here: 
+The full article explaining this process is available here: https://medium.com/@colesussmeier/statistical-arbitrage-on-kalshi-2e8ca0470eb5
 
 ### Data/ Files
 
@@ -12,8 +12,4 @@ The full article explaining this process is available here:
 
 - analyze.ipynb: looks at the interaction between covariates and their potential for use in a model
 
-- predict_univariate.ipynb: Univariate daily forecasting model using only TSA check-in data
-
-- predict.ipynb: Using AutoGluon ensemble methods to predict weekly average TSA check-ins
-
-- predict_with_lags.ipynb: Using shifted lagged variables to build the best weekly model
+- predict_with_lags.ipynb: Using shifted lagged variables + AutoGluon to build the best weekly model
